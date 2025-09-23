@@ -5,6 +5,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
     server: {
         // * Use port 80 only in production, port 3000 for development
-        port: process.env.NODE_ENV === 'production' ? 80 : 3000
+        port: process.env.NODE_ENV === 'production' ? 80 : 4321
     }
 });
