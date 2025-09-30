@@ -8,7 +8,7 @@ export default defineConfig({
         port: process.env.NODE_ENV === 'production' ? 80 : 4321
     },
     vite: {
-        preview: {
+        server: {
             allowedHosts: ['web-t33n1d64wsm0.up-de-fra1-k8s-1.apps.run-on-seenode.com']
         }
     }
