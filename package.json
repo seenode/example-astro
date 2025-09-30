@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "preview:prod": "NODE_ENV=production astro preview --host",
+    "preview:prod": "NODE_ENV=production astro preview --host --allowed-hosts=web-t33n1d64wsm0.up-de-fra1-k8s-1.apps.run-on-seenode.com",
     "astro": "astro"
   },
   "dependencies": {
