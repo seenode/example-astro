@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "astro-web-service",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,9 +7,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "preview:prod": "NODE_ENV=production astro preview --host --allowed-hosts=web-t33n1d64wsm0.up-de-fra1-k8s-1.apps.run-on-seenode.com",
+    "start": "NODE_ENV=production node ./dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/node": "^9.4.6",
     "astro": "^5.13.10"
   }
 }
