@@ -10,5 +10,11 @@ export default defineConfig({
 
     adapter: node({
         mode: 'standalone'
-    })
+    }),
+
+    server: {
+        // * Use port 80 in production (requires root/container privileges), port 4321 for development
+        port: process.env.NODE_ENV === 'production' ? 80 : 4321,
+        host: true // * Bind to 0.0.0.0 for container networking
+    }
 });
