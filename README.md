@@ -5,7 +5,7 @@ This is a minimal and production-ready Astro application configured for deployme
 This example demonstrates how to deploy an Astro web service with both a web page and API endpoint.
 
 ### Deploy in minutes
-View our [guide on deploying Astro apps](https://seenode.com/docs/services/web-services/framework-guides/javascript/astro/) on [Seenode](https://seenode.com) in seconds.
+View our [guide on deploying Astro apps](https://seenode.com/docs/frameworks/javascript/astro/) on [Seenode](https://seenode.com) in seconds.
 
 ## How to Deploy on Seenode
 
